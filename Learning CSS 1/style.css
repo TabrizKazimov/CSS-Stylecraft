@@ -1,0 +1,28 @@
+
+#pro1{
+    color: rgb(240, 37, 40);
+    font-size: 20px;
+}
+#par{
+    font-size: 30px;
+    color: rgb(13, 18, 16);
+}
+body{
+    width: 100vw;
+    width: 100vh;
+   /* background-color: aqua;
+    background-image: url(./Bayraq.jpeg);
+    background-repeat: no-repeat;
+   /* background-position: right;
+    background-position: bottom;
+    background-position: top;
+    background-position: left;
+
+
+    background-position: center;
+    background-size: 500px;
+    background-attachment:fixed ;*/
+
+    background: url(./Bayraq.jpeg) fixed no-repeat center/400px;
+    
+}
