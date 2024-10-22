@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+div{
+    background-color: aqua;
+}
+
+/*p{
+    font-size: 20px;
+    color: brown;
+    text-align:center;
+   /* text-decoration: underline;
+    text-transform: capitalize;
+    text-transform: lowercase;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    line-height: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    word-spacing: 10px;
+    font-weight: 900;
+    font-style: italic;
+    
+    
+}
+
+a{
+    font-weight: 900;
+}
+
+:hover{
+    color: black;
+}
+
+:active{
+    color: aquamarine;
+}
+
+link{
+    color: blue;
+}
+
+link
+
+list-style-type: none;
+list-style-position: outside; 
+
+table{
+    width: 100%;
+    border: 3px solid blue;
+}
+
+td{
+    border: 3px solid black;
+}
+th{
+    border: 3px solid green;
+}
+tr:nth-child(even){
+    background-color: aqua;
+}
+hhjjj */
+
+
+.box1{
+    width: 250px;
+    height: 250px;
+    border: 4px solid red;
+    margin: 30px;
+    padding: 50px;
+}
+
+.box2{
+    width: 100px;
+    height: 64px;
+    background-color: bisque;
+    border: 3px solid rgb(10, 1, 19);
+    
+}
