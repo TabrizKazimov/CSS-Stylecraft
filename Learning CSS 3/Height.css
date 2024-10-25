@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*
+body{
+    font-family: "Alef", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+/*
+.box-1{
+   min-width: 400px;
+    min-height: 400px;
+    max-width: 600px;
+    max-height: 600px;
+
+    background-color: aqua;
+    border: 3px solid red;
+
+}
+
+    /*.box{ 
+        font-size: 2rem;
+
+    }
+
+    .box{
+        font-size: 1em;
+    }*/
+
+    p{
+        background-color: yellow;
+        display: inline block;
+    }
+
+    h1{
+        background-color: chartreuse;
+        display: block;
+    }
