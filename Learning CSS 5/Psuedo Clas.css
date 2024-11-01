@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h1{
+    text-align: center;
+}
+
+a:hover{
+    /* background-color: blue; */
+    font-size: 30px;
+}
+
+a:focus{
+    background-color: aqua;
+    color: yellowgreen;
+}
+
+button:focus{
+    background-color: darkolivegreen;
+    color: saddlebrown;
+    cursor: pointer;
+}
+
+input:focus{
+    background-color: brown;
+}
+
+Baxilsin 2 cinin uzerne gelende brovn olmur
+a :nth-child(2):hover{
+    color: yellow;
+    background-color: brown;
+}
+
+
+a :nth-child(1):hover
+duz moterze type pasword olmadi
+input:hover{
+    background-color: blueviolet;
+}
+
+ul:first-child{
+    background-color: yellow;
+}
+
+ul li:first-child{
+    background-color: aqua;
+}
+
+li:nth-child(2){
+    background-color: blue;
+}
+
+
+h1::before{
+    content :"*";
+    color: darkblue;
+    
+}
+
+h1::after{
+    content: "-";
+    color: lawngreen;
+}
+
+h1::first-letter{
+    color:red ;
+}
+
+p::first-line{
+    background-color: aquamarine;
+    color: blueviolet;
+}
