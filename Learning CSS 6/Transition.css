@@ -1,0 +1,19 @@
+.mybutton{
+    background-color: blue;
+    color: azure;
+    padding: 10px;
+    border: none;
+    border-radius: 25px;
+    font-size: 20px;
+    width: 200px;
+    height: 100px;
+    transition: background-color 0.9s ease, font-size 0.9s ease; width: 0.5s ease;
+    box-shadow: 3px 5px 10px 5px lawngreen;
+}
+
+.mybutton:hover{
+    font-size: 25px;
+    background-color: brown;
+    width: 250px;
+    box-shadow: 3px 5px 3px 5px green;
+}
