@@ -1,0 +1,59 @@
+.box {
+    width: 100px;
+    height: 100px;
+    background-color:greenyellow;
+    position: relative;
+    animation-name: Tabriz;
+    animation-duration: 8s;
+    animation-timing-function: linear 0.9;
+    animation-iteration-count: infinite
+}
+
+
+/*.box :hover {
+    transform: skewY(45deg);
+    transform: rotateY(45deg);
+    transform: scale(1.5);
+}
+button{
+    background-color: aqua;
+    width: 100PX;
+    height: 100PX;
+}
+
+button :hover{
+    box-shadow: 2px 2px 2px 2px;
+  
+  filter: brightness(px);
+
+}
+
+
+p{
+    text-shadow: 2px 2px 0px red;
+}*/
+
+
+
+@keyframes Tabriz{
+    0%{
+        top: 0px;
+        left: 0px;
+    }
+    25%{
+        top: 0px;
+        left: 100px;
+    }
+    50%{
+        top: 100px;
+        left: 100px;
+    }
+    75%{
+        top: 100px;
+        left: 0px;
+    }
+    100%{
+        top: 0px;
+        left: 0px;
+    }
+}
