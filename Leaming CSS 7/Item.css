@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.item-container{
+    background-color: rgb(77, 77, 195);
+    height: 600px;
+    display: flex;
+    padding: 20px;
+}
+
+.item{
+    border: 2px solid gold;
+    padding: 10px;
+    background-color: aqua;
+    width: 150px;
+    height: 60px;
+}
+/*
+
+.item-4{
+    order: 1;
+}
+
+.item-1{
+    order: 4;
+}
+
+.item-2{
+    order: 2;
+}
+
+.item-3{
+    order: 3;
+}*/
+
+
+.item-1{
+    width: 100px;
+}
+
+.item-2{
+    width: 100px;
+}
+
+.item-3{
+    width: 100px;
+}
+
+.item-4{
+    flex-grow: 0.5;
+}
