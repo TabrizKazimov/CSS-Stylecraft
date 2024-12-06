@@ -3,13 +3,19 @@
     padding: 0;
     box-sizing: border-box;
 }
-.padding{
+body,html {
+    width: 100vw;
+    height: 100vh;
+}
+.Pagination{
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
     gap: 10px;
 }
+
 a{
-    width: 100%;
+  
     padding: 10px 20px;
     margin: 10px 20px;
     border-radius: 8px;
